@@ -1,0 +1,2 @@
+# Scala ListBuffer.result() Immutability
+This example showcases a frequent mistake in Scala when working with `ListBuffer`. The `result()` method returns an immutable `List`, not a `ListBuffer`, leading to unexpected behavior when modifications are attempted.
